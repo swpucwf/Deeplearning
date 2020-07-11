@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://F:/PycharmProjects/2020_teacher_zhaojun/.idea/2020_teacher_zhaojun.iml" filepath="F:/PycharmProjects/2020_teacher_zhaojun/.idea/2020_teacher_zhaojun.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/PycharmProjects.iml" filepath="$PROJECT_DIR$/.idea/PycharmProjects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test0708/.idea/test0708.iml" filepath="$PROJECT_DIR$/test0708/.idea/test0708.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test0708不归一化/.idea/test0708不归一化.iml" filepath="$PROJECT_DIR$/test0708不归一化/.idea/test0708不归一化.iml" />
+      <module fileurl="file://F:/PycharmProjects/yolov5-master/.idea/yolov5-master.iml" filepath="F:/PycharmProjects/yolov5-master/.idea/yolov5-master.iml" />
+    </modules>
+  </component>
+</project>

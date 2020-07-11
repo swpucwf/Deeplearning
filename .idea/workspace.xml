@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9161fed8-507a-4ec7-906c-871f67411e1b" name="Default Changelist" comment="--更新笔记" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1e1S0ksmpe6fF8vqn0lUur2VujI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/数学/高等数学" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PycharmProjects\数学\高等数学" />
+      <recent name="D:\PycharmProjects\test0708不归一化" />
+      <recent name="D:\PycharmProjects" />
+      <recent name="D:\PycharmProjects\test0708\model" />
+      <recent name="D:\PycharmProjects\test0708" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PycharmProjects\数学" />
+      <recent name="D:\PycharmProjects\test0708" />
+      <recent name="F:\PycharmProjects\2020_teacher_zhaojun" />
+      <recent name="F:\PycharmProjects\2020_teacher_zhaojun\model" />
+      <recent name="D:\PycharmProjects\deeplearning\yoloV3\utils" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.image_data">
+    <configuration name="动态显示" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PycharmProjects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数学/高等数学" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数学/高等数学/动态显示.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="导数" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PycharmProjects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数学/高等数学" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数学/高等数学/导数.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="梯度下降法" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PycharmProjects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数学/高等数学" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数学/高等数学/梯度下降法.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="image_data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PycharmProjects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数学/高等数学" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数学/高等数学/image_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sigmoid图像" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PycharmProjects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数学/高等数学" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数学/高等数学/sigmoid图像.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="torch的梯度下降法" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PycharmProjects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数学/高等数学" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数学/高等数学/torch的梯度下降法.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.image_data" />
+        <item itemvalue="Python.动态显示" />
+        <item itemvalue="Python.torch的梯度下降法" />
+        <item itemvalue="Python.sigmoid图像" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9161fed8-507a-4ec7-906c-871f67411e1b" name="Default Changelist" comment="" />
+      <created>1593487386397</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593487386397</updated>
+      <workItem from="1593487399722" duration="66000" />
+      <workItem from="1593489776790" duration="11522000" />
+      <workItem from="1593533084779" duration="203000" />
+      <workItem from="1593568615572" duration="12725000" />
+      <workItem from="1593674612313" duration="3031000" />
+      <workItem from="1593744362873" duration="2681000" />
+      <workItem from="1593768335413" duration="5661000" />
+      <workItem from="1593827287344" duration="4016000" />
+      <workItem from="1593913404098" duration="1830000" />
+      <workItem from="1593995252259" duration="2461000" />
+      <workItem from="1594019033317" duration="5911000" />
+      <workItem from="1594084228637" duration="5964000" />
+      <workItem from="1594103459070" duration="30114000" />
+      <workItem from="1594171637661" duration="27324000" />
+      <workItem from="1594260381245" duration="23022000" />
+      <workItem from="1594300327434" duration="3032000" />
+      <workItem from="1594346730470" duration="903000" />
+      <workItem from="1594352255673" duration="222000" />
+      <workItem from="1594355770826" duration="14010000" />
+      <workItem from="1594381058385" duration="6719000" />
+      <workItem from="1594431781271" duration="273000" />
+    </task>
+    <task id="LOCAL-00001" summary="--精简">
+      <created>1593533222339</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1593533222339</updated>
+    </task>
+    <task id="LOCAL-00002" summary="--更新">
+      <created>1593619901272</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1593619901272</updated>
+    </task>
+    <task id="LOCAL-00003" summary="--更新笔记">
+      <created>1593675761392</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1593675761393</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/deeplearning" />
+    </ignored-roots>
+    <MESSAGE value="--精简" />
+    <MESSAGE value="--更新" />
+    <MESSAGE value="--更新笔记" />
+    <option name="LAST_COMMIT_MESSAGE" value="--更新笔记" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="598" y="302" key="#Inspections" timestamp="1593771704586">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="598" y="302" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1593771704586" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594178348592">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594178348592" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1593828464249">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1593828464249" />
+    <state width="1169" height="329" key="GridCell.Tab.0.bottom" timestamp="1594395098119">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1169" height="329" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594395098119" />
+    <state width="1169" height="329" key="GridCell.Tab.0.center" timestamp="1594395098119">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1169" height="329" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594395098119" />
+    <state width="1169" height="329" key="GridCell.Tab.0.left" timestamp="1594395098118">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1169" height="329" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594395098118" />
+    <state width="1169" height="329" key="GridCell.Tab.0.right" timestamp="1594395098119">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1169" height="329" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594395098119" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1594268919810">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594268919810" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1594268919810">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594268919810" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1594268919810">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594268919810" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1594268919810">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594268919810" />
+    <state x="864" y="293" key="RollbackChangesDialog" timestamp="1594300352274">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="864" y="293" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594300352274" />
+    <state x="473" y="268" key="SettingsEditor" timestamp="1594432049131">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="473" y="268" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1594432049131" />
+    <state x="-186" y="62" width="971" height="805" key="dock-window-1" timestamp="1594120133588">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-186" y="62" width="971" height="805" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1594120133588" />
+    <state x="936" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1594362297095">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="936" y="361" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1594362297095" />
+    <state x="682" y="431" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1594126423437">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="682" y="431" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594126423437" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PycharmProjects$plotImage_02.coverage" NAME="plotImage-02 Coverage Results" MODIFIED="1594361397804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数学/高等数学" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$test.coverage" NAME="test Coverage Results" MODIFIED="1594300462885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test0709不归一化" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$train__1_.coverage" NAME="train (1) Coverage Results" MODIFIED="1594300439796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test0709不归一化" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$numpy.coverage" NAME="numpy广播 Coverage Results" MODIFIED="1594361534239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数学/高等数学" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$FittingCurve01.coverage" NAME="FittingCurve01 Coverage Results" MODIFIED="1594121249185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/PycharmProjects/2020_teacher_zhaojun" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$torch2numpy_01.coverage" NAME="torch2numpy-01 Coverage Results" MODIFIED="1594361202171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数学/高等数学" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$detect.coverage" NAME="detect Coverage Results" MODIFIED="1593571421688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/PycharmProjects/yolov5-master" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$u2net_test.coverage" NAME="u2net_test Coverage Results" MODIFIED="1594126512913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/deeplearning/U2_Net" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$numpyxrange.coverage" NAME="numpy中xrange函数 Coverage Results" MODIFIED="1594362077071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数学/高等数学" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$data__1_.coverage" NAME="data (1) Coverage Results" MODIFIED="1594207996384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test0708不归一化" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$test__2_.coverage" NAME="test (2) Coverage Results" MODIFIED="1594301058209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test0708" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$data_loader.coverage" NAME="data_loader Coverage Results" MODIFIED="1594126122998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/deeplearning/U2_Net" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$crop.coverage" NAME="crop Coverage Results" MODIFIED="1594126135427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/deeplearning/U2_Net" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$test0707.coverage" NAME="test0707 Coverage Results" MODIFIED="1594104876407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/PycharmProjects/2020_teacher_zhaojun" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$train__2_.coverage" NAME="train (2) Coverage Results" MODIFIED="1594309687810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test0708" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$pyr_mix.coverage" NAME="pyr_mix Coverage Results" MODIFIED="1594012328341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/20年02月班18期/2020-03-24/OpenCV代码/Python/OpenCVStudy" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$sigmoid.coverage" NAME="sigmoid图像 Coverage Results" MODIFIED="1594363308630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数学/高等数学" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$data.coverage" NAME="data Coverage Results" MODIFIED="1594208014696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test0708" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$build_model.coverage" NAME="build_model Coverage Results" MODIFIED="1593597233857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/实训/20190706/代码/test_20190706" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1594298375137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test0708不归一化" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$example.coverage" NAME="example Coverage Results" MODIFIED="1593619799872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/PycharmProjects/yolov5-master" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$gradientDescent.coverage" NAME="gradientDescent Coverage Results" MODIFIED="1594351803239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/deeplearning/mathStudy/advanced mathematics" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$test_data.coverage" NAME="test_data Coverage Results" MODIFIED="1594173454284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/PycharmProjects/2020_teacher_zhaojun" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$torch.coverage" NAME="torch的梯度下降法 Coverage Results" MODIFIED="1594379590210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数学/高等数学" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$.coverage" NAME="动态显示 Coverage Results" MODIFIED="1594384619428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数学/高等数学" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$image_data.coverage" NAME="image_data Coverage Results" MODIFIED="1594395098107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数学/高等数学" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$kernelRidge.coverage" NAME="kernelRidge Coverage Results" MODIFIED="1593828475847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/PycharmProjects/2020_teacher_zhaojun" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$net.coverage" NAME="net Coverage Results" MODIFIED="1594181519318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test0708" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$train.coverage" NAME="train Coverage Results" MODIFIED="1594298288468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test0708不归一化" />
+  </component>
+</project>
