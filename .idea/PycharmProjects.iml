@@ -4,16 +4,8 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="yolov5-master" />
-    <orderEntry type="module" module-name="2020_teacher_zhaojun" />
-    <orderEntry type="module" module-name="test0708" />
-    <orderEntry type="module" module-name="test0708不归一化" />
-    <orderEntry type="module" module-name="test0708" />
-    <orderEntry type="module" module-name="test0708不归一化" />
-    <orderEntry type="module" module-name="test0708不归一化" />
-    <orderEntry type="module" module-name="test0708不归一化" />
-    <orderEntry type="module" module-name="test0713不归一化10-3" />
-    <orderEntry type="module" module-name="test07139-2区" />
+    <orderEntry type="module" module-name="xgboost" />
+    <orderEntry type="module" module-name="校园研究项目" />
   </component>
   <component name="PyDocumentationSettings">
     <option name="format" value="PLAIN" />

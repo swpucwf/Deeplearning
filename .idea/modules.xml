@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://F:/PycharmProjects/2020_teacher_zhaojun/.idea/2020_teacher_zhaojun.iml" filepath="F:/PycharmProjects/2020_teacher_zhaojun/.idea/2020_teacher_zhaojun.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/PycharmProjects.iml" filepath="$PROJECT_DIR$/.idea/PycharmProjects.iml" />
-      <module fileurl="file://E:/test0708/.idea/test0708.iml" filepath="E:/test0708/.idea/test0708.iml" />
-      <module fileurl="file://E:/test0708不归一化/.idea/test0708不归一化.iml" filepath="E:/test0708不归一化/.idea/test0708不归一化.iml" />
-      <module fileurl="file://E:/test07139-2区/.idea/test07139-2区.iml" filepath="E:/test07139-2区/.idea/test07139-2区.iml" />
-      <module fileurl="file://E:/test0713不归一化10-3/.idea/test0713不归一化10-3.iml" filepath="E:/test0713不归一化10-3/.idea/test0713不归一化10-3.iml" />
-      <module fileurl="file://F:/PycharmProjects/yolov5-master/.idea/yolov5-master.iml" filepath="F:/PycharmProjects/yolov5-master/.idea/yolov5-master.iml" />
+      <module fileurl="file://E:/xgboost/.idea/xgboost.iml" filepath="E:/xgboost/.idea/xgboost.iml" />
+      <module fileurl="file://E:/校园研究项目/.idea/校园研究项目.iml" filepath="E:/校园研究项目/.idea/校园研究项目.iml" />
     </modules>
   </component>
 </project>
