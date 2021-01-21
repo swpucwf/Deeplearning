@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/PycharmProjects.iml" filepath="$PROJECT_DIR$/.idea/PycharmProjects.iml" />
+      <module fileurl="file://E:/xgboost/.idea/xgboost.iml" filepath="E:/xgboost/.idea/xgboost.iml" />
+      <module fileurl="file://E:/校园研究项目/.idea/校园研究项目.iml" filepath="E:/校园研究项目/.idea/校园研究项目.iml" />
+    </modules>
+  </component>
+</project>
