@@ -4,7 +4,6 @@
 /.settings/
 /.vscode/
 /bin/
-
 .classpath
 .project
 .settings
@@ -49,3 +48,5 @@ Thumbs.db
 /mvnw
 *.jpg
 *.txt
+*.t
+*.xml

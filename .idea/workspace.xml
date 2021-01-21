@@ -10,9 +10,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9161fed8-507a-4ec7-906c-871f67411e1b" name="Default Changelist" comment="--更新笔记">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="9161fed8-507a-4ec7-906c-871f67411e1b" name="Default Changelist" comment="添加.gitignore">
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PycharmProjects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PycharmProjects.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,9 +34,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1e1S0ksmpe6fF8vqn0lUur2VujI" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -68,7 +70,7 @@
       <recent name="E:\test07139-2区" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.watershed">
+  <component name="RunManager" selected="Python.test (1)">
     <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
       <module name="2020_teacher_zhaojun" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -113,28 +115,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="ADDITIONAL_ARGS" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="矩阵运算" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PycharmProjects" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数学/线性代数" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数学/线性代数/矩阵运算.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="调参利器" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -357,7 +337,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="contour_line" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PycharmProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -365,12 +345,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OpenCV" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OpenCV/contour_line.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -469,11 +449,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test (1)" />
         <item itemvalue="Python.watershed" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.contour" />
         <item itemvalue="Python.contour_feature" />
-        <item itemvalue="Python.contour_line" />
       </list>
     </recent_temporary>
   </component>
@@ -531,7 +511,7 @@
       <workItem from="1595169210040" duration="3853000" />
       <workItem from="1595173697439" duration="1627000" />
       <workItem from="1595210012709" duration="8332000" />
-      <workItem from="1611243735673" duration="118000" />
+      <workItem from="1611243735673" duration="516000" />
     </task>
     <task id="LOCAL-00001" summary="--精简">
       <created>1593533222339</created>
@@ -561,7 +541,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611243775983</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="添加.gitignore">
+      <created>1611243942250</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1611243942250</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -587,73 +574,8 @@
     <MESSAGE value="--精简" />
     <MESSAGE value="--更新" />
     <MESSAGE value="--更新笔记" />
-    <option name="LAST_COMMIT_MESSAGE" value="--更新笔记" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="598" y="302" key="#Inspections" timestamp="1593771704586">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="598" y="302" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1593771704586" />
-    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594178348592">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594178348592" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1594782023414">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1594782023414" />
-    <state width="1877" height="274" key="GridCell.Tab.0.bottom" timestamp="1595237747648">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595237747648" />
-    <state width="1877" height="274" key="GridCell.Tab.0.center" timestamp="1595237747647">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595237747647" />
-    <state width="1877" height="274" key="GridCell.Tab.0.left" timestamp="1595237747647">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595237747647" />
-    <state width="1877" height="274" key="GridCell.Tab.0.right" timestamp="1595237747647">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595237747647" />
-    <state width="1877" height="346" key="GridCell.Tab.1.bottom" timestamp="1595166611893">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="346" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595166611893" />
-    <state width="1877" height="346" key="GridCell.Tab.1.center" timestamp="1595166611893">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="346" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595166611893" />
-    <state width="1877" height="346" key="GridCell.Tab.1.left" timestamp="1595166611892">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="346" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595166611892" />
-    <state width="1877" height="346" key="GridCell.Tab.1.right" timestamp="1595166611893">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="346" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595166611893" />
-    <state x="864" y="293" key="RollbackChangesDialog" timestamp="1594300352274">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="864" y="293" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594300352274" />
-    <state x="325" y="328" key="SettingsEditor" timestamp="1595172184984">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="325" y="328" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1595172184984" />
-    <state x="-186" y="62" width="971" height="805" key="dock-window-1" timestamp="1594120133588">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-186" y="62" width="971" height="805" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1594120133588" />
-    <state x="936" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1595151394961">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="936" y="361" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1595151394961" />
-    <state x="682" y="431" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1595210193401">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="682" y="431" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595210193401" />
+    <MESSAGE value="添加.gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加.gitignore" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PycharmProjects$detect.coverage" NAME="detect Coverage Results" MODIFIED="1593571421688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/PycharmProjects/yolov5-master" />
@@ -684,6 +606,7 @@
     <SUITE FILE_PATH="coverage/PycharmProjects$net.coverage" NAME="net Coverage Results" MODIFIED="1594181519318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test0708" />
     <SUITE FILE_PATH="coverage/PycharmProjects$train__1_.coverage" NAME="train (1) Coverage Results" MODIFIED="1594625882223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/test07139-2区" />
     <SUITE FILE_PATH="coverage/PycharmProjects$train.coverage" NAME="train Coverage Results" MODIFIED="1594650616368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/test0713不归一化10-3" />
+    <SUITE FILE_PATH="coverage/Deeplearning$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1611244173832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PycharmProjects$bitwise.coverage" NAME="bitwise Coverage Results" MODIFIED="1594825383858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV" />
     <SUITE FILE_PATH="coverage/PycharmProjects$Knn.coverage" NAME="Knn回归 Coverage Results" MODIFIED="1594720580261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/机器学习/回归" />
     <SUITE FILE_PATH="coverage/PycharmProjects$PIL2numpy.coverage" NAME="PIL2numpy Coverage Results" MODIFIED="1594560919873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数学/线性代数" />
