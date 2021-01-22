@@ -10,18 +10,35 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9161fed8-507a-4ec7-906c-871f67411e1b" name="Default Changelist" comment="添加.gitignore">
-      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="9161fed8-507a-4ec7-906c-871f67411e1b" name="Default Changelist" comment="加个说明">
+      <change afterPath="$PROJECT_DIR$/Detection-Pytorch/PytorchModel/pytorch变形.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Detection-Pytorch/PytorchModel/torch分割.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Detection-Pytorch/PytorchModel/torch排序.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Detection-Pytorch/PytorchModel/torch的张量使用.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Detection-Pytorch/PytorchModel/torch索引.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Detection-Pytorch/PytorchModel/张量组合.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Detection-Pytorch/全连接/mlp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Detection-Pytorch/目标检测评估/conf/arial.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Detection-Pytorch/目标检测评估/conf/conf.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Detection-Pytorch/目标检测评估/data/results/class1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Detection-Pytorch/目标检测评估/data/results/class2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Detection-Pytorch/目标检测评估/lib/Evaluator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Detection-Pytorch/目标检测评估/lib/detection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Detection-Pytorch/目标检测评估/lib/evaluation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/matplotlib_study/ModifyConfigurationParameters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/matplotlib_study/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/PycharmProjects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PycharmProjects.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Deeplearning" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -30,8 +47,33 @@
       </list>
     </option>
   </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1e1S0ksmpe6fF8vqn0lUur2VujI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -45,7 +87,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="E:/校园研究项目" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pythonProject/20210119" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -55,22 +97,22 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Deeplearning\Detection-Pytorch\目标检测评估\data" />
+      <recent name="D:\Deeplearning\Detection-Pytorch\目标检测评估\conf" />
+      <recent name="E:\校园研究项目" />
+      <recent name="D:\PycharmProjects\OpenCV\images" />
+      <recent name="D:\PycharmProjects\OpenCV" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Deeplearning\Detection-Pytorch\目标检测评估\lib" />
       <recent name="D:\PycharmProjects\机器学习\集成学习" />
       <recent name="D:\PycharmProjects\OpenCV\images" />
       <recent name="D:\PycharmProjects\机器学习\分类" />
       <recent name="D:\PycharmProjects\机器学习\回归" />
-      <recent name="D:\PycharmProjects\数学" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\校园研究项目" />
-      <recent name="D:\PycharmProjects\OpenCV\images" />
-      <recent name="D:\PycharmProjects\OpenCV" />
-      <recent name="E:\xgboost" />
-      <recent name="E:\test07139-2区" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test (1)">
+  <component name="RunManager" selected="Python.mlp">
     <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
       <module name="2020_teacher_zhaojun" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -115,28 +157,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="ADDITIONAL_ARGS" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="调参利器" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PycharmProjects" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/机器学习/回归" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/机器学习/回归/调参利器.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="分类" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -286,27 +306,43 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="contour" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PycharmProjects" />
+    <configuration name="code_studentname_studentId" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="20210119" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OpenCV" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../pythonProject/20210119" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OpenCV/contour.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../pythonProject/20210119/code_studentname_studentId.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mlp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PycharmProjects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Detection-Pytorch/全连接" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Detection-Pytorch/全连接/mlp.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -315,20 +351,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="contour_feature" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="pytorch变形" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PycharmProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OpenCV" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Detection-Pytorch/PytorchModel" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OpenCV/contour_feature.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Detection-Pytorch/PytorchModel/pytorch变形.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -337,20 +370,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="torch排序" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PycharmProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Detection-Pytorch/PytorchModel" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Detection-Pytorch/PytorchModel/torch排序.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -359,42 +389,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="校园研究项目" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="E:/校园研究项目" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:/校园研究项目/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="watershed" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="torch索引" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PycharmProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OpenCV" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Detection-Pytorch/PytorchModel" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OpenCV/watershed.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Detection-Pytorch/PytorchModel/torch索引.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -447,13 +452,20 @@
       <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.torch索引" />
+      <item itemvalue="Python.code_studentname_studentId" />
+      <item itemvalue="Python.pytorch变形" />
+      <item itemvalue="Python.torch排序" />
+      <item itemvalue="Python.mlp" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test (1)" />
-        <item itemvalue="Python.watershed" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.contour" />
-        <item itemvalue="Python.contour_feature" />
+        <item itemvalue="Python.mlp" />
+        <item itemvalue="Python.torch排序" />
+        <item itemvalue="Python.pytorch变形" />
+        <item itemvalue="Python.torch索引" />
+        <item itemvalue="Python.code_studentname_studentId" />
       </list>
     </recent_temporary>
   </component>
@@ -511,7 +523,8 @@
       <workItem from="1595169210040" duration="3853000" />
       <workItem from="1595173697439" duration="1627000" />
       <workItem from="1595210012709" duration="8332000" />
-      <workItem from="1611243735673" duration="516000" />
+      <workItem from="1611243735673" duration="662000" />
+      <workItem from="1611282451108" duration="25014000" />
     </task>
     <task id="LOCAL-00001" summary="--精简">
       <created>1593533222339</created>
@@ -548,7 +561,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611243942250</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="加个说明">
+      <created>1611244284331</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1611244284331</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -575,7 +595,8 @@
     <MESSAGE value="--更新" />
     <MESSAGE value="--更新笔记" />
     <MESSAGE value="添加.gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加.gitignore" />
+    <MESSAGE value="加个说明" />
+    <option name="LAST_COMMIT_MESSAGE" value="加个说明" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PycharmProjects$detect.coverage" NAME="detect Coverage Results" MODIFIED="1593571421688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/PycharmProjects/yolov5-master" />
@@ -604,11 +625,13 @@
     <SUITE FILE_PATH="coverage/PycharmProjects$build_model.coverage" NAME="build_model Coverage Results" MODIFIED="1593597233857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/实训/20190706/代码/test_20190706" />
     <SUITE FILE_PATH="coverage/PycharmProjects$contour_feature.coverage" NAME="contour_feature Coverage Results" MODIFIED="1595236277720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV" />
     <SUITE FILE_PATH="coverage/PycharmProjects$net.coverage" NAME="net Coverage Results" MODIFIED="1594181519318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test0708" />
+    <SUITE FILE_PATH="coverage/Deeplearning$evaluation.coverage" NAME="evaluation Coverage Results" MODIFIED="1611295994994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Detection-Pytorch/目标检测评估/lib" />
     <SUITE FILE_PATH="coverage/PycharmProjects$train__1_.coverage" NAME="train (1) Coverage Results" MODIFIED="1594625882223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/test07139-2区" />
     <SUITE FILE_PATH="coverage/PycharmProjects$train.coverage" NAME="train Coverage Results" MODIFIED="1594650616368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/test0713不归一化10-3" />
     <SUITE FILE_PATH="coverage/Deeplearning$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1611244173832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PycharmProjects$bitwise.coverage" NAME="bitwise Coverage Results" MODIFIED="1594825383858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV" />
     <SUITE FILE_PATH="coverage/PycharmProjects$Knn.coverage" NAME="Knn回归 Coverage Results" MODIFIED="1594720580261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/机器学习/回归" />
+    <SUITE FILE_PATH="coverage/Deeplearning$Evaluator.coverage" NAME="Evaluator Coverage Results" MODIFIED="1611295230177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Detection-Pytorch/目标检测评估/lib" />
     <SUITE FILE_PATH="coverage/PycharmProjects$PIL2numpy.coverage" NAME="PIL2numpy Coverage Results" MODIFIED="1594560919873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数学/线性代数" />
     <SUITE FILE_PATH="coverage/PycharmProjects$numpy.coverage" NAME="numpy入门 Coverage Results" MODIFIED="1594713301565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/机器学习/回归" />
     <SUITE FILE_PATH="coverage/PycharmProjects$sigmoid.coverage" NAME="sigmoid图像 Coverage Results" MODIFIED="1594363308630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数学/高等数学" />
@@ -625,10 +648,12 @@
     <SUITE FILE_PATH="coverage/PycharmProjects$contour_box.coverage" NAME="contour_box Coverage Results" MODIFIED="1594972752539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV" />
     <SUITE FILE_PATH="coverage/PycharmProjects$contour.coverage" NAME="contour Coverage Results" MODIFIED="1595236294578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV" />
     <SUITE FILE_PATH="coverage/PycharmProjects$gradientDescent.coverage" NAME="gradientDescent Coverage Results" MODIFIED="1594351803239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/deeplearning/mathStudy/advanced mathematics" />
+    <SUITE FILE_PATH="coverage/Deeplearning$ModifyConfigurationParameters.coverage" NAME="ModifyConfigurationParameters Coverage Results" MODIFIED="1611283701083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/matplotlib_study" />
     <SUITE FILE_PATH="coverage/PycharmProjects$threshold.coverage" NAME="threshold Coverage Results" MODIFIED="1594882583129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV" />
     <SUITE FILE_PATH="coverage/PycharmProjects$prespective.coverage" NAME="prespective Coverage Results" MODIFIED="1594882179040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV" />
     <SUITE FILE_PATH="coverage/PycharmProjects$torch.coverage" NAME="torch的梯度下降法 Coverage Results" MODIFIED="1594379590210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数学/高等数学" />
     <SUITE FILE_PATH="coverage/PycharmProjects$GBRT.coverage" NAME="GBRT回归 Coverage Results" MODIFIED="1594789197227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/机器学习/集成学习" />
+    <SUITE FILE_PATH="coverage/Deeplearning$torch.coverage" NAME="torch排序 Coverage Results" MODIFIED="1611311251605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Detection-Pytorch/PytorchModel" />
     <SUITE FILE_PATH="coverage/PycharmProjects$Gmm.coverage" NAME="Gmm Coverage Results" MODIFIED="1594791991802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/机器学习/聚类" />
     <SUITE FILE_PATH="coverage/PycharmProjects$test.coverage" NAME="test Coverage Results" MODIFIED="1595236359544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/校园研究项目" />
     <SUITE FILE_PATH="coverage/PycharmProjects$contour_line.coverage" NAME="contour_line Coverage Results" MODIFIED="1595236255270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV" />
@@ -639,6 +664,7 @@
     <SUITE FILE_PATH="coverage/PycharmProjects$test0707.coverage" NAME="test0707 Coverage Results" MODIFIED="1594613510811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/PycharmProjects/2020_teacher_zhaojun" />
     <SUITE FILE_PATH="coverage/PycharmProjects$corner_shi_tomasi.coverage" NAME="corner_shi_tomasi Coverage Results" MODIFIED="1595234106749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV" />
     <SUITE FILE_PATH="coverage/PycharmProjects$tranform.coverage" NAME="tranform Coverage Results" MODIFIED="1594882859686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV" />
+    <SUITE FILE_PATH="coverage/Deeplearning$detection.coverage" NAME="detection Coverage Results" MODIFIED="1611296371549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Detection-Pytorch/目标检测评估/lib" />
     <SUITE FILE_PATH="coverage/PycharmProjects$torchnumpy.coverage" NAME="torch和numpy Coverage Results" MODIFIED="1594435645794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数学/高等数学" />
     <SUITE FILE_PATH="coverage/PycharmProjects$pyr_gass.coverage" NAME="pyr_gass Coverage Results" MODIFIED="1594979517423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV" />
     <SUITE FILE_PATH="coverage/PycharmProjects$adaboost.coverage" NAME="adaboost Coverage Results" MODIFIED="1595210524898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/机器学习/集成学习" />
@@ -648,6 +674,7 @@
     <SUITE FILE_PATH="coverage/PycharmProjects$videoreader.coverage" NAME="videoreader Coverage Results" MODIFIED="1594883043359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV" />
     <SUITE FILE_PATH="coverage/PycharmProjects$numpyxrange.coverage" NAME="numpy中xrange函数 Coverage Results" MODIFIED="1594362077071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数学/高等数学" />
     <SUITE FILE_PATH="coverage/PycharmProjects$_classification.coverage" NAME="_classification Coverage Results" MODIFIED="1594781918759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:/pythonSystem/Lib/site-packages/sklearn/neighbors" />
+    <SUITE FILE_PATH="coverage/Deeplearning$.coverage" NAME="张量组合 Coverage Results" MODIFIED="1611302955511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Detection-Pytorch/PytorchModel" />
     <SUITE FILE_PATH="coverage/PycharmProjects$color_space.coverage" NAME="color_space Coverage Results" MODIFIED="1594827758224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV" />
     <SUITE FILE_PATH="coverage/PycharmProjects$corner_harris.coverage" NAME="corner_harris Coverage Results" MODIFIED="1595234064258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV" />
     <SUITE FILE_PATH="coverage/PycharmProjects$fft_numpy.coverage" NAME="fft_numpy Coverage Results" MODIFIED="1594979048996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV" />
@@ -656,6 +683,7 @@
     <SUITE FILE_PATH="coverage/PycharmProjects$image_read.coverage" NAME="image_read Coverage Results" MODIFIED="1594879785321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV" />
     <SUITE FILE_PATH="coverage/PycharmProjects$u2net_test.coverage" NAME="u2net_test Coverage Results" MODIFIED="1594126512913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/deeplearning/U2_Net" />
     <SUITE FILE_PATH="coverage/PycharmProjects$plotImage_02.coverage" NAME="plotImage-02 Coverage Results" MODIFIED="1594361397804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数学/高等数学" />
+    <SUITE FILE_PATH="coverage/Deeplearning$pytorch.coverage" NAME="pytorch变形 Coverage Results" MODIFIED="1611309785095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Detection-Pytorch/PytorchModel" />
     <SUITE FILE_PATH="coverage/PycharmProjects$cour_box.coverage" NAME="cour_box Coverage Results" MODIFIED="1595234145393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV" />
     <SUITE FILE_PATH="coverage/PycharmProjects$hist_eq.coverage" NAME="hist_eq Coverage Results" MODIFIED="1594868529158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV" />
     <SUITE FILE_PATH="coverage/PycharmProjects$affine.coverage" NAME="affine Coverage Results" MODIFIED="1594804210325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OpenCV" />
