@@ -13,20 +13,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9161fed8-507a-4ec7-906c-871f67411e1b" name="Default Changelist" comment="全连接">
-      <change afterPath="$PROJECT_DIR$/Detection-Pytorch/backbone/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Detection-Pytorch/backbone/激活函数.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PycharmProjects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PycharmProjects.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Detection-Pytorch/PytorchModel/pytorch变形.py" beforeDir="false" afterPath="$PROJECT_DIR$/Detection-Pytorch/PytorchModel/pytorch变形.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Detection-Pytorch/PytorchModel/torch分割.py" beforeDir="false" afterPath="$PROJECT_DIR$/Detection-Pytorch/PytorchModel/torch分割.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Detection-Pytorch/PytorchModel/torch排序.py" beforeDir="false" afterPath="$PROJECT_DIR$/Detection-Pytorch/PytorchModel/torch排序.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Detection-Pytorch/PytorchModel/torch的张量使用.py" beforeDir="false" afterPath="$PROJECT_DIR$/Detection-Pytorch/PytorchModel/torch的张量使用.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Detection-Pytorch/PytorchModel/torch索引.py" beforeDir="false" afterPath="$PROJECT_DIR$/Detection-Pytorch/PytorchModel/torch索引.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Detection-Pytorch/PytorchModel/张量组合.py" beforeDir="false" afterPath="$PROJECT_DIR$/Detection-Pytorch/PytorchModel/张量组合.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Detection-Pytorch/全连接/visdom.py" beforeDir="false" afterPath="$PROJECT_DIR$/Detection-Pytorch/全连接/visdom_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Detection-Pytorch/全连接/手写数字分类.py" beforeDir="false" afterPath="$PROJECT_DIR$/Detection-Pytorch/全连接/手写数字分类.py" afterDir="false" />
+    <list default="true" id="9161fed8-507a-4ec7-906c-871f67411e1b" name="Default Changelist" comment="torch学习">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -541,7 +529,7 @@
       <workItem from="1611243735673" duration="662000" />
       <workItem from="1611282451108" duration="25209000" />
       <workItem from="1611312335012" duration="7054000" />
-      <workItem from="1611373752603" duration="27052000" />
+      <workItem from="1611373752603" duration="27098000" />
     </task>
     <task id="LOCAL-00001" summary="--精简">
       <created>1593533222339</created>
@@ -599,7 +587,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611385010375</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="torch学习">
+      <created>1611457773495</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1611457773496</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -629,7 +624,8 @@
     <MESSAGE value="加个说明" />
     <MESSAGE value="新得一章" />
     <MESSAGE value="全连接" />
-    <option name="LAST_COMMIT_MESSAGE" value="全连接" />
+    <MESSAGE value="torch学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="torch学习" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PycharmProjects$detect.coverage" NAME="detect Coverage Results" MODIFIED="1593571421688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/PycharmProjects/yolov5-master" />
