@@ -4,7 +4,8 @@ from torch import nn
 from torch import optim
 from torch.utils.data import DataLoader
 from torchvision import datasets, transforms
-import matplotlib.pyplot as plt
+from tensorboardX import SummaryWriter
+
 os.environ["KMP_DUPLICATE_LIB_OK"]="TRUE"
 
 # 权重初始化
@@ -57,24 +58,30 @@ class Model(nn.Module):
         out_put_result = self.outplayer(result)
         return out_put_result
 
+
 class Train(object):
 
-    def __init__(self, save_path="./checkpoint"):
+    def __init__(self, save_path="./checkpoint",visualization_parh="./logs/temps"):
         self.tf = transforms.Compose([
             transforms.ToTensor(),
             # transforms.RandomHorizontalFlip(),
             transforms.Normalize([0.5], [0.5]),
         ])
-
+        self.visualization_path = visualization_parh
+        # 添加可视化工具
         self.save_path = save_path
         if not os.path.exists(self.save_path):
             os.makedirs(self.save_path)
+        if not os.path.exists(self.visualization_path):
+            os.makedirs(self.visualization_path)
+
+        self.writer = SummaryWriter(self.visualization_path)
 
         self.train_Data = datasets.MNIST("./data", train=True, transform=self.tf, download=True)
         self.test_Data = datasets.MNIST("./data", train=False, transform=self.tf, download=True)
-        self.train_Data_loader = DataLoader(self.train_Data, batch_size=100, shuffle=True, num_workers=4,
+        self.train_Data_loader = DataLoader(self.train_Data, batch_size=100, shuffle=True, num_workers=0,
                                             drop_last=True)
-        self.test_Data_loader = DataLoader(self.test_Data, batch_size=100, shuffle=True, num_workers=4,
+        self.test_Data_loader = DataLoader(self.test_Data, batch_size=100, shuffle=True, num_workers=0,
                                            drop_last=True)
 
         self.model = Model()
@@ -87,6 +94,7 @@ class Train(object):
             {"params": self.model.outplayer.parameters(), "lr": 0.001}, ],
             lr=0.01,
         )
+
         if os.listdir(self.save_path):
             # 加载存好的路径
             self.model.load_state_dict(torch.load(os.path.join(self.save_path, os.listdir(self.save_path)[-1])))
@@ -100,11 +108,12 @@ class Train(object):
             # 开启训练
             self.model.train()
             sum_loss = 0.
+            imgs = None
             for i,(img,tag) in enumerate(self.train_Data_loader):
                 img,tag = img.to(self.device),tag.to(self.device)
-
                 tag_pred = self.model(img)
                 train_loss = self.loss_fn(tag_pred,tag)
+                imgs = img
 
                 sum_loss+= train_loss.detach().cpu().item()
 
@@ -130,15 +139,32 @@ class Train(object):
             avg_test_loss = sum_test_loss/len(self.test_Data_loader)
             avg_score=score/len(self.test_Data_loader)
             print("epoch",epoch,"avg_train_loss",avg_train_loss,"avg_test_loss",avg_test_loss,"avg_score",avg_score)
+            self.visualization(epoch,imgs,avg_train_loss,avg_test_loss,avg_score)
+            # 保存参数
             if epoch%5==0:
                 torch.save(self.model.state_dict(),"./checkpoint/weight.pth")
                 torch.save(self.model,"./checkpoint/model.pth")
 
+    def visualization(self,epoch,img,avg_train_loss,avg_test_loss,avg_score):
 
+        for i,tier  in enumerate(self.model.layer):
+            if isinstance(tier,nn.Conv2d):
+                self.writer.add_histogram(str(tier)+str(i),self.model.layer[i].weight,epoch)
+            if isinstance(tier,nn.Linear):
+                self.writer.add_histogram(str(tier) + str(i), self.model.layer[i].weight, epoch)
 
+        # 添加图片
+        self.writer.add_images("imgs", img[:10, :], epoch)
+        # 加入模型可视化
+        self.writer.add_graph(self.model, (torch.randn(2, 1, 28, 28).cuda(),))
+        # 加入参数可视化
+        self.writer.add_scalars("loss", {"avg_train_loss": avg_train_loss, "avg_test_loss": avg_test_loss},epoch)
+        # 加入得分
+        self.writer.add_scalar("score", avg_score, epoch)
 
-
-
+    def calculated_amount(self):
+        for tier in self.model.layer:
+            print(tier)
 
 
 
@@ -153,4 +179,7 @@ if __name__ == '__main__':
     # model = Model()
     # print(model(x).shape)
     train = Train()
-    train()
+    train.calculated_amount()
+    # model = Model()
+    # for data in model.layer:
+    #     print(data)
